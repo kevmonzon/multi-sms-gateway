@@ -1,0 +1,30 @@
+{
+    "name": "kevmonzon/multisms",
+    "description": "Laravel Multi SMS Gateway",
+    "require": {
+        "php" : "^7.0",
+        "authy/php": "^3.0",
+        "nexmo/client": "^1.4",
+        "plivo/php-sdk": "^4.1",
+        "twilio/sdk": "^5.21"
+    },
+    "authors": [
+        {
+            "name": "Rae Kevin Monzon",
+            "email": "kevmonzon@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kevmonzon\\multisms\\MultiSmsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "kevmonzon\\multisms\\": "src"
+        }
+    }
+
+}
